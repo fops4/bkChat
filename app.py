@@ -135,4 +135,5 @@ Réponds en français de manière claire, concise, et professionnelle.
         return jsonify({"error": f"Erreur serveur : {str(e)}"}), 500
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 5000))  # par sécurité
+    app.run(host="0.0.0.0", port=port)
