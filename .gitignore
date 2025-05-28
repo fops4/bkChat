@@ -43,3 +43,4 @@ build/
 # Editor files
 *.swp
 .idea/
+.vercel

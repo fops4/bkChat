@@ -7,3 +7,4 @@ langchain-huggingface==0.0.3
 sentence-transformers==3.1.1
 python-dotenv==1.0.1
 gunicorn==23.0.0
+faiss-cpu==1.7.4
